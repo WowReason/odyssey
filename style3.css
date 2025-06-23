@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(41, 44, 115, 0.7),rgba(41, 44, 115, 0.7)),url(ImagesAndVideos/serverroom.jpg);
+    background-image: linear-gradient(rgba(41, 44, 115, 0.7),rgba(41, 44, 115, 0.7)),url(serverroom.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
