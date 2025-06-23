@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThirdProject</title>
+    <link rel="stylesheet" href="style3.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Main information-->
+
+  <section>
+
+    <header class="navbar">
+
+      <img src="ImagesAndVideos/ServerCloudlogo.png" alt="ServerCloud" class="logo">
+      <i class="ri-menu-line" onclick="showMenu()"></i>
+
+      <nav class="nav_list" id="nav_show">
+        <i class="ri-close-large-line" onclick="hideMenu()"></i>
+        <ul class="nav_list_content">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Data Center</a></li>
+        </ul>
+      </nav>
+
+      <!-- Center information-->
+
+    </header>
+
+    <main>
+      <h1 class="headtext">START NOW, WITH A 30-DAY TRIAL</h1>
+      <article>
+        <p class="info">We provide cloud solutions for developers, businesses, and enterprise-level infrastructure needs.<br>
+        Whether you're hosting a personal project or deploying mission-critical services,<br> our platform has the flexibility and tools to help you succeed.</p>
+        <p class="info2">Start your free trial today and experience the power of cloud hosting.</p>
+        <p class="info3">Reliable, Scalable, and Secure Cloud Server Hosting</p>
+      </article>
+      <button class="startnow">Start Now</button>
+
+    </main>
+
+  </section>
+
+  <!-- Bottom information -->
+
+  <section class="bottomsection">
+    <h1 class="type1">What We Offer</h1>
+
+    <div class="row">
+
+      <div class="info-col">
+        <h1>Massive Storage Capacity</h1>
+        <p>Our cloud servers offer scalable SSD storage options, allowing you to store everything from application data to large media files. With up to 10 TB per server, you’ll have all the space you need to grow without sacrificing speed or reliability.</p>
+      </div>
+      <div class="info-col">
+        <h1>Guaranteed 99.99% Uptime</h1>
+        <p>Downtime is never an option. With a robust infrastructure supported by redundant power, cooling, and network systems, we ensure your applications remain accessible 24/7. Our 99.99% uptime SLA means peace of mind for your business.</p>
+      </div>
+      <div class="info-col">
+        <h1>Enterprise-Grade Security</h1>
+        <p>Your data is your business, and protecting it is ours. We use industry-leading encryption, intrusion detection systems, and real-time monitoring to safeguard all your assets. With compliance-ready environments and proactive patch management, your applications stay protected 24/7, no exceptions.</p>
+      </div>
+      <div class="info-col">
+        <h1>Smart Monitoring & Analytics</h1>
+        <p>Know everything that happens on your servers with our built-in performance dashboards. From CPU load and bandwidth usage to real-time user behavior, we give you the insights you need to optimize operations and reduce costs.</p>
+      </div>
+    </div>
+
+    </section>
+
+    <footer class="footer1">
+      <p class="about1">ServerCloud is a high-performance cloud hosting platform designed to scale with your business.<br> From startups to enterprises, we provide the infrastructure you need to succeed—secure, reliable, and lightning-fast.</p>
+      <div class="mainone">
+        <ul class="quicklinks">
+          <li>Home</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Terms of Service</li>
+          <li>Privacy Policy</li>
+        </ul>
+        <ul class="quicklinks2">
+          <li>Email: support@servercloud.com</li>
+          <li> Phone: +1 (800) 123-4567</li>
+          <li>Address: 123 Cloud Lane, San Francisco, CA 94107</li>
+          <li>[Facebook] | [Twitter/X] | [LinkedIn] | [GitHub] | [YouTube]</li>
+        </ul>
+      </div>
+      <p class="watermark">© 2025 ServerCloud Inc. All rights reserved.</p>
+    </footer>
+
+    <script>
+      var nav_list = document.getElementById("nav_show");
+
+      function showMenu(){
+        nav_show.style.right = "0";
+      }
+
+            function hideMenu(){
+        nav_show.style.right = "-400px";
+      }
+    </script>
+</body>
+</html>
